@@ -1,0 +1,44 @@
+.caja {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px; 
+    justify-content: center;
+    width: 300px;
+    background-color: #ccc;
+    align-items: center;
+
+}
+
+.fotos {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#circle {
+    border: 1px solid #270e0e;
+    border-radius: 13px;
+    width: 18px;
+}
+
+
+.infoCompra{    
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}

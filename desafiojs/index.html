@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+
+<body>
+    <div class="tarjetas">
+        <div class="card">
+            <img class="fotos" src="./assets/img/rueda.jpg" alt="Imagen del producto">
+            <h1>Rueda circular</h1>
+            <p>Por favor, introduce la cantidad:</p>
+            <input id="cantidad" type="number" placeholder="Cantidad"><br>
+            <select id="color">
+                <option value="">- Color -</option>
+                <option value="black">Negro</option>
+                <option value="red">Rojo</option>
+                <option value="blue">Azul</option>
+            </select>
+            <h4>Precio: <span id="total">$80.000</span></h4>
+            <button id="btnTotal" onclick="calcular()">Calcular total</button>
+            <p id=""></p>
+        </div>
+        <div id="infototal" class="infoCompra">
+            <p>Total: $<span id="totalFinal">0</span></p>
+            <p>Cantidad: <span id="cantidadFinal">0</span></p>
+            <p>Color:
+            <div id="circle">&nbsp;</div>
+            </p>
+        </div>
+    </div>
+
+    <script src="./assets/js/javas.js"></script>
+
+</body>
+
+</html>
